@@ -24,4 +24,4 @@ jobs:
       - name: Install Prototool
         run: python install_prototool.py
       - name: Run Lint Checks
-        run: python pre_commit_linter.py --path=. --verbose
+        run: python pre_commit_linter.py --path=.

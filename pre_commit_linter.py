@@ -83,7 +83,7 @@ if not os.path.exists(_PROTOTOOL_PATH):
 _MESSAGE_TYPE_SUCCESS = 'SUCCESS'
 _MESSAGE_TYPE_FAILED = 'FAILED'
 
-EXCLUDED_PATHS = ('third_party/*',)
+EXCLUDED_PATHS = ('third_party/*', '.git/*', '.github/*')
 
 PROTOTOOL_CONFIG_FILE = 'prototool_config.json'
 
