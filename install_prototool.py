@@ -30,7 +30,7 @@ PROTOTOOL_URL = (
 
 
 def download_file(source_url, target_dir, filename):
-    """Downloads a file and save it to a given directory.
+    """Downloads a file and saves it to a given directory.
 
     File is downloaded only if it does not already exist.
 
